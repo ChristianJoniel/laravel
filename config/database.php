@@ -33,23 +33,6 @@ return [
 
     'connections' => [
 
-        'sqlsrv' => [
-            'driver' => 'sqlsrv',
-            'host' => env('DB_HOST', 'localhost'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
-            'charset' => 'utf8',
-            'prefix' => '',
-            'encrypt' => 'yes', // alternatively, defer to an env variable
-            'trust_server_certificate' => 'true', // alternatively, defer to an env variable
-        ],
-
-        'sqlite' => [
-            'driver' => 'sqlite',
-            'database' => env('DB_DATABASE', database_path('database.sqlite')),
-            'prefix' => '',
-        ],
 
         'mysql' => [
             'driver' => 'mysql',
